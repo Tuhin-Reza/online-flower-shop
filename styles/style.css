@@ -392,3 +392,62 @@ input[type=email]:focus {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/* -----------bonus-part---------- */
+#bonus-part {
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 130px;
+    padding-bottom: 90px;
+}
+
+.bonus-part-container-left>h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 143px;
+}
+
+.bonus-part-container-left>p {
+    background-color: white;
+    width: 350px;
+    padding: 70px;
+    color: black;
+    text-align: left;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-right: -80px;
+
+    position: relative;
+    z-index: 1;
+
+}
+
+.bonus-part-container-left>button {
+    border-radius: 50px;
+    background: white;
+    border: 1px solid black;
+    padding: 20px 43px;
+    font-size: 18px;
+}
+.bonus-card{
+    margin-top: 67px;
+    height: 500px;
+    width: 550px;
+
+}
+
+.bonus-card>img{
+    height: 100%;
+    width: 100%;
+}
+.bonus-part-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
