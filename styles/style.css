@@ -151,3 +151,34 @@
     justify-content: center;
     gap: 24px;
 }
+
+
+/* --------Policy------- */
+
+#policy{
+border-radius: 8px;
+background-color: rgba(39, 39, 39, 0.05);
+margin-top: 124px;
+margin-left: 250px;
+margin-right: 290px;
+
+}
+.policy-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:50px;
+}
+.policy-container>.policy-container-column>div>img{
+    width: 50px;
+    height: 50px;
+}
+.policy-container>.policy-container-column>div>p{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 35px; 
+}
