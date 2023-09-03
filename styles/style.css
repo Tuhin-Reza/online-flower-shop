@@ -249,12 +249,14 @@ header {
 
 
 /* -------Instragram------ */
-#instragram{
+#instragram {
     margin-bottom: 130px;
 }
+
 .instragram-heading {
     text-align: center;
 }
+
 .instragram-heading>h1 {
     color: #272727;
     text-align: center;
@@ -263,6 +265,7 @@ header {
     font-weight: 800;
     padding-bottom: 25px;
 }
+
 .instragram-heading>p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -272,19 +275,81 @@ header {
     line-height: 30px;
     padding-bottom: 50px;
 }
-.instragram-img-card{
-    border: 1px solid red;
+
+.instragram-img-card {
     width: 250px;
     height: 300px;
 }
-.instragram-img-card>img{
-    background-color: red;
+
+.instragram-img-card>img {
     width: 100%;
     height: 100%;
 }
-.instragram-container{
+
+.instragram-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
 }
 
+
+/* ---------latest deals----------- */
+#latest-deals {
+    background-image: url("../images/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 310px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deals-item>h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deals-item>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+input[type=email] {
+    background-color: #FFF;
+    border-radius: 8px;
+    width: 400px;
+    border: none;
+    padding: 16px;
+}
+
+input[type=email]:focus{
+    outline: none;
+}
+.latest-deals-item>div>button{
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: #E55473;
+    margin-left: 5px;
+
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+}
