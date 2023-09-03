@@ -2,9 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
-header{
+
+header {
     margin-bottom: 130px;
 }
+
 .header-container {
     height: 600px;
     background: rgba(229, 84, 115, 0.10);
@@ -16,12 +18,14 @@ header{
 .header-container-left {
     padding-left: 200px;
 }
+
 .header-container-left>h1 {
     color: #272727;
     font-family: Lato;
     font-size: 50px;
     font-weight: 800;
 }
+
 .header-container-left>p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -32,6 +36,7 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .header-container-left>button {
     border: none;
     padding: 20px 43px;
@@ -43,27 +48,32 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
+
 .header-container-right {
     height: 600px;
 }
+
 .header-container-right>img {
     width: 100%;
     height: 100%;
 }
 
 /* -----------feature------- */
-#feature{
+#feature {
     margin-bottom: 130px;
 }
+
 .feature-heading {
     margin-bottom: 50px;
 }
+
 .feature-heading>h1 {
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 40px;
 }
+
 .feature-heading>p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -72,6 +82,7 @@ header{
     font-weight: 400;
     line-height: 30px;
 }
+
 .feature-container-card1 {
     width: 230px;
     height: 230px;
@@ -81,6 +92,7 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .feature-container-card2 {
     width: 230px;
     height: 230px;
@@ -91,6 +103,7 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .feature-container-card3 {
     width: 230px;
     height: 230px;
@@ -100,15 +113,18 @@ header{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .card-box {
     height: 230px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .pink-flower {
     width: 100%;
     height: 100%;
 }
+
 .feature-container-card1>p {
     color: #272727;
     text-align: center;
@@ -118,6 +134,7 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .feature-container-card2>p {
     color: #272727;
     text-align: center;
@@ -127,6 +144,7 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .feature-container-card3>p {
     color: #272727;
     text-align: center;
@@ -136,6 +154,7 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .feature-container {
     display: flex;
     justify-content: center;
@@ -152,6 +171,7 @@ header{
     margin-right: 290px;
     margin-bottom: 130px;
 }
+
 .policy-container {
     height: 200px;
     display: flex;
@@ -160,10 +180,12 @@ header{
     text-align: center;
     gap: 50px;
 }
+
 .policy-container>.policy-container-column>div>img {
     width: 50px;
     height: 50px;
 }
+
 .policy-container>.policy-container-column>div>p {
     color: rgba(39, 39, 39, 0.80);
     font-family: Lato;
@@ -183,6 +205,7 @@ header{
     text-align: center;
     margin-bottom: 130px;
 }
+
 .deal-container-column-left {
     padding-left: 100px;
 }
@@ -190,10 +213,12 @@ header{
 .deal-container-column-left>h1 {
     padding-bottom: 25px;
 }
+
 .off {
     color: #E55473;
     font-weight: bold;
 }
+
 .deal-container-column-left>p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -204,6 +229,7 @@ header{
     padding-bottom: 25px;
     padding-right: 15px;
 }
+
 .deal-container-column-left>button {
     border-radius: 8px;
     background-color: #E55473;
@@ -215,6 +241,7 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
+
 .deal-container-column-right>img {
     width: 250px;
     padding-right: 200px;
@@ -222,6 +249,42 @@ header{
 
 
 /* -------Instragram------ */
-.instragram-heading{
+#instragram{
+    margin-bottom: 130px;
+}
+.instragram-heading {
     text-align: center;
 }
+.instragram-heading>h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.instragram-heading>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.instragram-img-card{
+    border: 1px solid red;
+    width: 250px;
+    height: 300px;
+}
+.instragram-img-card>img{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.instragram-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
