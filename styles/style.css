@@ -308,6 +308,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .latest-deals-item>h1 {
     color: #272727;
     text-align: center;
@@ -328,6 +329,7 @@ header {
     line-height: 30px;
     margin-bottom: 50px;
 }
+
 input[type=email] {
     background-color: #FFF;
     border-radius: 8px;
@@ -335,10 +337,12 @@ input[type=email] {
     border: none;
     padding: 16px;
 }
-input[type=email]:focus{
+
+input[type=email]:focus {
     outline: none;
 }
-.latest-deals-item>div>button{
+
+.latest-deals-item>div>button {
     border: none;
     padding: 12px 30px;
     border-radius: 8px;
@@ -349,4 +353,42 @@ input[type=email]:focus{
     font-family: Lato;
     font-size: 18px;
     font-weight: 700;
+}
+
+
+
+/* -----------footer----------- */
+.footer {
+    text-align: center;
+    color: #FFF;
+    background-color: #111010;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.footer>h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.footer>p {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
