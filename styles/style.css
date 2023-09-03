@@ -170,6 +170,7 @@ margin-right: 290px;
     align-items: center;
     text-align: center;
     gap:50px;
+    margin-bottom: 130px;
 }
 .policy-container>.policy-container-column>div>img{
     width: 50px;
