@@ -308,7 +308,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .latest-deals-item>h1 {
     color: #272727;
     text-align: center;
@@ -329,7 +328,6 @@ header {
     line-height: 30px;
     margin-bottom: 50px;
 }
-
 input[type=email] {
     background-color: #FFF;
     border-radius: 8px;
@@ -337,7 +335,6 @@ input[type=email] {
     border: none;
     padding: 16px;
 }
-
 input[type=email]:focus{
     outline: none;
 }
